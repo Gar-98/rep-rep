@@ -1,0 +1,37 @@
+tr {
+  height: 100px;
+}
+
+td {
+  width: 200px;
+}
+
+p {
+  color: red;
+  font-family: serif;
+  font-size: 20px;
+}
+
+input {
+  border-style: ridge; /* Устанавливает стиль границы элемента как "рельефный" (ridge) */
+  border-color: red; /* Устанавливает цвет границы элемента как красный */
+  border-width: 5px; /* Устанавливает ширину границы элемента в 5 пикселей */
+  color: blue; /* Устанавливает цвет текста внутри элемента как синий */
+  font-family: serif; /* Устанавливает семейство шрифтов для текста внутри элемента как serif */
+  font-size: 20px; /* Устанавливает размер шрифта текста внутри элемента как 20 пикселей */
+  background-color: white; /* Устанавливает цвет фона элемента как белый */
+}
+
+input:hover {
+  border-color: white;
+  color: red;
+}
+
+table {
+  margin: auto;
+}
+
+body {
+  background-image: url("https://clck.ru/3BL2ZS");
+  background-size: cover;
+}
